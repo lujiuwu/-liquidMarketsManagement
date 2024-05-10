@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-notify": "/uni_modules/uview-ui/components/u-notify/u-notify",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

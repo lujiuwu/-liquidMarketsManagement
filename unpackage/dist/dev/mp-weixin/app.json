@@ -1,13 +1,67 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/login/login",
+    "pages/superviser/sup-problem/sup-problem",
+    "pages/trader/tra-business/tra-business",
+    "pages/trader/tra-message/tra-message",
+    "pages/customer/cus-message/cus-message",
+    "pages/my/my",
+    "pages/home/home",
+    "pages/map/map"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "pages-search",
+      "pages": [
+        "search/search"
+      ]
+    },
+    {
+      "root": "pages-detail",
+      "pages": [
+        "shop_detail/shop_detail",
+        "sup-shop-detail/sup-shop-detail",
+        "problem-detail/problem-detail"
+      ]
+    }
+  ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "摆 摊 吧",
+    "navigationBarBackgroundColor": "#1296db",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/login/login",
+        "text": "登录"
+      },
+      {
+        "pagePath": "pages/superviser/sup-problem/sup-problem",
+        "text": "问题"
+      },
+      {
+        "pagePath": "pages/trader/tra-message/tra-message"
+      },
+      {
+        "pagePath": "pages/trader/tra-business/tra-business"
+      },
+      {
+        "pagePath": "pages/customer/cus-message/cus-message"
+      },
+      {
+        "pagePath": "pages/my/my"
+      },
+      {
+        "pagePath": "pages/home/home"
+      },
+      {
+        "pagePath": "pages/map/map"
+      }
+    ]
   },
   "usingComponents": {}
 }

@@ -1,7 +1,55 @@
 {
-    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
-    "projectname": "BaiTan",
-    "setting": {
-        "compileHotReLoad": true
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "BaiTan",
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages-detail/problem-detail/problem-detail",
+          "query": "problem_detail=%7B%22problem_shop%22%3A%22%E5%A4%A9%E5%A4%A9%E7%83%A4%E9%B8%AD%22%2C%22problem_status%22%3A%22%E5%B7%B2%E5%AE%8C%E6%88%90%22%2C%22problem_image%22%3A%22..%2F..%2Fstatic%2FshopSample2.png%22%2C%22problem_title%22%3A%22%E5%BA%97%E5%86%85%E7%83%A4%E9%B8%AD%E9%A3%9F%E7%89%A9%E5%8F%98%E8%B4%A8%E9%97%AE%E9%A2%98%22%2C%22problem_code%22%3A%22NO001%22%2C%22problem_address%22%3A%22%E6%88%90%E9%83%BD%E5%B8%82%E6%96%B0%E9%83%BD%E5%8C%BA%E6%AD%A3%E5%9B%A0%E8%A1%9710%E5%8F%B7%22%2C%22problem_tags%22%3A%5B%22%E9%A3%9F%E7%89%A9%E5%8F%98%E8%B4%A8%22%2C%22%E5%8C%BA%E5%9F%9F%E8%B6%85%E9%99%90%22%5D%7D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/superviser/sup-problem/sup-problem",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/shop_detail/shop_detail",
+          "query": "info=%7B%22img_url%22%3A%22..%2F..%2Fstatic%2FshopSample.png%22%2C%22name%22%3A%22%E8%8A%B1%E9%9B%95%E9%86%89%E9%B8%A1%22%2C%22sales%22%3A145%2C%22rate%22%3A4.8%2C%22comments%22%3A%5B%22%E7%9C%9F%E7%9A%84%E5%BE%88%E5%A5%BD%E5%90%83%EF%BC%8C%E5%BC%BA%E7%83%88%E6%8E%A8%E8%8D%90%22%2C%22%E8%8A%B1%E9%9B%95%E9%86%89%E9%B8%A1YYDS%22%5D%2C%22distance%22%3A456%2C%22hot%22%3A10%7D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/map/map",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/login/login",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
     }
+  }
 }

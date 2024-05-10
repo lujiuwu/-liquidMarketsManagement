@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "店铺详情",
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "single-goods": "/components/single-goods/single-goods",
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate",
+    "single-comment": "/components/single-comment/single-comment"
+  }
+}

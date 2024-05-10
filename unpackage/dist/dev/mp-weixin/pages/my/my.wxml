@@ -1,0 +1,1 @@
+<view><text>public my page</text><my-tabbar vue-id="704e9d00-1" tabbarArr="{{getTabBar}}" Value="{{3}}" bind:__l="__l"></my-tabbar><button data-event-opts="{{[['tap',[['gotoLogin',['$event']]]]]}}" bindtap="__e">退出登录</button></view>

@@ -53,9 +53,12 @@
         "appid" : "wx00043f1110c3932b",
         "setting" : {
             "urlCheck" : false,
-            "postcss" : true
+            "postcss" : true,
+			"ignoreDevUnusedFiles": false,
+			"ignoreUploadUnusedFiles": false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+		"optimization":{"subPackages":true}
     },
     "mp-alipay" : {
         "usingComponents" : true

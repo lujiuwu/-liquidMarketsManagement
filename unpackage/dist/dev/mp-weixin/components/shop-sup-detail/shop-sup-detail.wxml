@@ -1,0 +1,1 @@
+<view class="shop-sup-detail"><view class="shop-image"><image class="shop-image-url" src="{{datas.image}}"></image></view><view class="shop-name">{{''+datas.name+''}}</view><view class="show-data"><text class="show-text">{{''+(show_type==='time'?datas.time+'days':datas.distance+'m')+''}}</text></view></view>

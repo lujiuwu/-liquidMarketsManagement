@@ -1,0 +1,1 @@
+<view class="my-submit"><view class="submit-avatar"><image class="avatar-image" src="{{submit_info.submit_avatar}}"></image></view><view class="submit-info"><view class="submit-name">{{''+submit_info.submit_name+''}}</view><view class="submit-identity">{{''+submit_info.submit_identity+''}}</view></view></view>

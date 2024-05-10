@@ -1,0 +1,1 @@
+<view class="my-solve-problem"><view class="solve-duration-time solve"><text class="show-title">问题存在：</text><text class="show-time">2天</text></view><view hidden="{{!(status==='已完成')}}" class="solved solve">已经解决</view><view hidden="{{!(status!=='已完成')}}" class="solve-now solve">确认解决</view></view>

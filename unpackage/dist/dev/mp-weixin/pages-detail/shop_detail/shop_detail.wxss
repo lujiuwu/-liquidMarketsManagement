@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* uni.scss */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.shop-detail {
+  position: relative;
+}
+.shop-detail .background {
+  width: 100%;
+}
+.shop-detail .background .bg-image {
+  width: 100%;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+.shop-detail .main {
+  position: absolute;
+  top: 100px;
+  background-color: #fff;
+  width: 100%;
+}
+.shop-detail .main .info {
+  height: 300rpx;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.shop-detail .main .info .name {
+  position: relative;
+  flex: 1;
+  font-weight: bold;
+  font-size: 44rpx;
+  display: flex;
+}
+.shop-detail .main .info .name .text {
+  align-self: center;
+}
+.shop-detail .main .info .name .avatar {
+  width: 180rpx;
+  height: 180rpx;
+  position: absolute;
+  right: 40rpx;
+  bottom: -30rpx;
+}
+.shop-detail .main .info .name .avatar .avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.shop-detail .main .info .star {
+  flex: 1;
+  display: flex;
+}
+.shop-detail .main .info .star .rate {
+  flex: 1;
+  display: inline-block;
+}
+.shop-detail .main .info .star .number {
+  flex: 20;
+  color: #00aaff;
+}
+.shop-detail .main .info .intro {
+  flex: 1;
+  font-weight: bold;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.shop-detail .main .info .phone, .shop-detail .main .info .group {
+  flex: 1;
+  display: flex;
+}
+.shop-detail .main .info .phone .text-area, .shop-detail .main .info .group .text-area {
+  flex: 1;
+}
+.shop-detail .main .info .phone .button-area, .shop-detail .main .info .group .button-area {
+  flex: 1;
+}
+.shop-detail .main .tabs-area .tabs {
+  width: 60%;
+  color: #000;
+}
+.shop-detail .main .goods-area {
+  margin-top: 20rpx;
+}
+.shop-detail .main .goods-area .goods-search {
+  padding: 0 40rpx;
+}
+.shop-detail .main .addCart {
+  padding: 0 50rpx;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 60rpx;
+  height: 50px;
+  width: 100%;
+}
+.shop-detail .main .addCart .add {
+  background-color: #232426;
+  width: 100%;
+  height: 100%;
+  border-radius: 100rpx;
+}
+.shop-detail .main .comments-area .show-rate {
+  padding: 30rpx 20rpx;
+  width: 100%;
+  height: 140rpx;
+  background-color: #fff;
+  display: flex;
+  border-bottom: 40rpx solid #eee;
+}
+.shop-detail .main .comments-area .show-rate .number {
+  flex: 1;
+  display: flex;
+}
+.shop-detail .main .comments-area .show-rate .number .number-text {
+  align-self: center;
+  font-weight: bold;
+  font-size: 80rpx;
+  color: #00aaff;
+}
+.shop-detail .main .comments-area .show-rate .icon {
+  margin-left: 10rpx;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.shop-detail .main .comments-area .show-rate .icon .show-text {
+  flex: 3;
+  display: flex;
+}
+.shop-detail .main .comments-area .show-rate .icon .show-text .text-cnt {
+  align-self: center;
+  font-size: 34rpx;
+}
+.shop-detail .main .comments-area .show-rate .icon .show-star {
+  flex: 2;
+}
+.shop-detail .main .comments-area .comments-body {
+  margin-top: 0rpx;
+  height: 100px;
+}
+.shop-detail .main .merchant-info {
+  height: 100px;
+  margin-top: 40rpx;
+}
+.shop-detail .main .merchant-info .merchant-position {
+  border-top: 40rpx solid #eee;
+  border-bottom: 40rpx solid #eee;
+}
+.shop-detail .main .merchant-info .merchant-group {
+  border-bottom: 40rpx solid #eee;
+}
+.shop-detail .main .merchant-info .merchant-position, .shop-detail .main .merchant-info .merchant-phone, .shop-detail .main .merchant-info .merchant-group {
+  padding: 20rpx 40rpx;
+  display: flex;
+}
+.shop-detail .main .merchant-info .merchant-position .marchant-icon, .shop-detail .main .merchant-info .merchant-phone .marchant-icon, .shop-detail .main .merchant-info .merchant-group .marchant-icon {
+  flex: 1;
+}
+.shop-detail .main .merchant-info .merchant-position .marchant-icon .merchant-image, .shop-detail .main .merchant-info .merchant-phone .marchant-icon .merchant-image, .shop-detail .main .merchant-info .merchant-group .marchant-icon .merchant-image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.shop-detail .main .merchant-info .merchant-position .merchant-text, .shop-detail .main .merchant-info .merchant-phone .merchant-text, .shop-detail .main .merchant-info .merchant-group .merchant-text {
+  margin-left: 28rpx;
+  flex: 11;
+  display: flex;
+}
+.shop-detail .main .merchant-info .merchant-position .merchant-text .inner-text, .shop-detail .main .merchant-info .merchant-phone .merchant-text .inner-text, .shop-detail .main .merchant-info .merchant-group .merchant-text .inner-text {
+  align-self: center;
+}
+

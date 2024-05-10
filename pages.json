@@ -1,17 +1,156 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        
+		    }
+		    
+		}       
+        ,{
+            "path" : "pages/superviser/sup-problem/sup-problem",
+            "style" :                                                                                    
+            {
+              
+            }
+            
+        }
+        ,{
+            "path" : "pages/trader/tra-business/tra-business",
+            "style" :                                                                                    
+            {
+               
+            }
+            
+        }
+        ,{
+            "path" : "pages/trader/tra-message/tra-message",
+            "style" :                                                                                    
+            {
+               
+            }
+            
+        }
+        ,{
+            "path" : "pages/customer/cus-message/cus-message",
+            "style" :                                                                                    
+            {
+               
+            }
+            
+        }
+        ,
+        {
+        	"path" : "pages/my/my",
+        	"style" : 
+        	{
+        		
+        	}
+        },
+        {
+        	"path" : "pages/home/home",
+        	"style" : 
+        	{
+        		
+        	}
+        },
+        {
+        	"path" : "pages/map/map",
+        	"style" : 
+        	{
+        	}
+        }
+        
+    ],
+	// 分包配置
+	"subPackages": [
+		// 搜索页面分包
+		{
+			"root": "pages-search",
+			"pages": [
+				{
+					"path": "search/search",
+					"style": {
+						"navigationBarTextStyle": "搜索"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages-detail",
+			"pages": [
+				{
+					"path": "shop_detail/shop_detail",
+					"style": {
+						"navigationBarTitleText": "店铺详情"
+					}
+				},
+				{
+					"path" : "sup-shop-detail/sup-shop-detail",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "problem-detail/problem-detail",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				}
+			]
 		}
 	],
+	"easycom": {
+	            "^u-(.*)": "@/components/u-$1/u-$1.vue"
+	},
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "摆 摊 吧",
+		"navigationBarBackgroundColor": "#1296db",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"easycom": {
+	    "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// 此处配置 -- tabBar
+	"tabBar": {
+		// 开发者自定义的tabber覆盖系统自定义 -- 必须加上
+		"custom":true,
+		"color": "#666",
+		"list": [
+			{
+				"pagePath": "pages/login/login",
+				"text": "登录"
+			},
+			{
+				"pagePath": "pages/superviser/sup-problem/sup-problem",
+				"text": "问题"
+			},
+			{
+				"pagePath": "pages/trader/tra-message/tra-message"
+			},
+			{
+				"pagePath": "pages/trader/tra-business/tra-business"
+			},
+			{
+				"pagePath": "pages/customer/cus-message/cus-message"
+			},
+			{
+				"pagePath": "pages/my/my"
+			},
+			{
+				"pagePath": "pages/home/home"
+			},
+			{
+				"pagePath": "pages/map/map"
+			}
+		]
+	}
 }

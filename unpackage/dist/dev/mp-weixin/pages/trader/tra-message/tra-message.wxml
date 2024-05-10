@@ -1,0 +1,1 @@
+<view><text>message</text><my-tabbar vue-id="fe7ccafa-1" tabbarArr="{{getTabBar}}" Value="{{1}}" bind:__l="__l"></my-tabbar></view>

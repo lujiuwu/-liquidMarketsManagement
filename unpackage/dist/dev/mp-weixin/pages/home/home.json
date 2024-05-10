@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-subsection": "/uni_modules/uview-ui/components/u-subsection/u-subsection",
+    "single-shop": "/components/single-shop/single-shop",
+    "single-shop-delete": "/components/single-shop-delete/single-shop-delete",
+    "my-tabbar": "/components/my-tabbar/my-tabbar"
+  }
+}

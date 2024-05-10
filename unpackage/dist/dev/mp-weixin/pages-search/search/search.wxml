@@ -1,0 +1,1 @@
+<view class="search-input"><u-search bind:input="__e" vue-id="2b4abb27-1" placeholder="开始搜索" show-action="{{false}}" height="{{38}}" value="{{keyword}}" data-event-opts="{{[['^input',[['__set_model',['','keyword','$event',[]]]]]]}}" bind:__l="__l"></u-search></view>

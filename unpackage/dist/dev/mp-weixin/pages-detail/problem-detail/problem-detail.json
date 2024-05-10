@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "my-submit": "/components/my-submit/my-submit",
+    "my-solve-problem": "/components/my-solve-problem/my-solve-problem"
+  }
+}
