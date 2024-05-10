@@ -1,10 +1,7 @@
 # LiquidMarketsManagement 摆摊吧
 
 ## 项目简介
-LiquidMarketsManagement 摆摊吧是一款基于物联网与GIS的流动商业市场管理系统，完全采用 ECMAScrip 模块（ESM）规范来编写和组织代码，基于 Vue2、Element-vue2、JavaScript、Pinia、等主流技术开发
-
-## 预览
-[点我查看预览](https://lujiuwu.github.io/SewageControlProject/dist/index.html)
+LiquidMarketsManagement 摆摊吧是一款基于物联网与GIS的流动商业市场的移动端管理系统，完全采用 ECMAScrip 模块（ESM）规范来编写和组织代码，基于 Vue2、Element-vue2、JavaScript、Pinia、等主流技术开发
 
 ## 安装使用
 ### 从GitHub上拉取
@@ -17,10 +14,11 @@ git clone git@github.com:lujiuwu/SewageControlProject.git
 npm install
 ```
 
-### 启动平台
+### 启动项目
 ```
 npm run serve
 ```
+建议采用微信小程序直接运行，更为方便快捷
 
 ### 项目打包
 ```
